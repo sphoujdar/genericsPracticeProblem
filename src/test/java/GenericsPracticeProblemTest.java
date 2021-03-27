@@ -37,4 +37,22 @@ public class GenericsPracticeProblemTest {
         GenericsPracticeProblem testVariable = new GenericsPracticeProblem(8.66,10.00,77.0001);
         Assert.assertEquals(testVariable.compareThreeWrapperObjects(),77.0001);
     }
+
+    @Test
+    public void givenString_MaxElementAsFirstElement_ShouldReturnMax(){
+        GenericsPracticeProblem testVariable = new GenericsPracticeProblem("Zebra","Orangutan","Lemur");
+        Assert.assertEquals(testVariable.compareThreeWrapperObjects(),"Zebra");
+    }
+
+    @Test
+    public void givenString_MaxElementAsSecondElement_ShouldReturnMax(){
+        GenericsPracticeProblem testVariable = new GenericsPracticeProblem("Apple","Peach","Banana");
+        Assert.assertEquals(testVariable.compareThreeWrapperObjects(),"Peach");
+    }
+
+    @Test
+    public void givenString_MaxElementAsThirdElement_ShouldReturnMax(){
+        GenericsPracticeProblem testVariable = new GenericsPracticeProblem("Apple","Bitcoin","Capgemini");
+        Assert.assertEquals(testVariable.compareThreeWrapperObjects(),"Capgemini");
+    }
 }

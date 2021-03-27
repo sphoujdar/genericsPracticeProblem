@@ -6,9 +6,7 @@ public class GenericsPracticeProblem <T extends  Comparable<T>> {
         this.second = second;
         this.third = third;
     }
-
     public T compareThreeWrapperObjects(){
-
         T maxElement = this.first;
         if (this.second.compareTo(maxElement) > 0)
             maxElement = this.second;

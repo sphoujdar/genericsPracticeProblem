@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsPracticeProblemTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-27T01:48:39" hostname="phoujdar" time="0.024">
+<testsuite name="GenericsPracticeProblemTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-27T01:59:03" hostname="phoujdar" time="0.051">
   <properties/>
-  <testcase name="givenFloat_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.016"/>
-  <testcase name="givenIntegers_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
-  <testcase name="givenIntegers_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="givenFloat_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.015"/>
+  <testcase name="givenString_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="givenString_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
+  <testcase name="givenIntegers_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
+  <testcase name="givenIntegers_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
+  <testcase name="givenString_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
   <testcase name="givenFloat_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
   <testcase name="givenFloat_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
-  <testcase name="givenIntegers_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="givenIntegers_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
