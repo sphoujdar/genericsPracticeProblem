@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GenericsPracticeProblemTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-27T01:59:03" hostname="phoujdar" time="0.051">
+<testsuite name="GenericsPracticeProblemTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-27T02:34:09" hostname="phoujdar" time="0.04">
   <properties/>
-  <testcase name="givenFloat_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.015"/>
-  <testcase name="givenString_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
-  <testcase name="givenString_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
-  <testcase name="givenIntegers_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
-  <testcase name="givenIntegers_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
-  <testcase name="givenString_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
-  <testcase name="givenFloat_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
-  <testcase name="givenFloat_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
-  <testcase name="givenIntegers_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="given3String_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.027"/>
+  <testcase name="given3Float_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.002"/>
+  <testcase name="given3Float_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="given3Integers_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.0"/>
+  <testcase name="given3String_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="given3Float_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="given3Integers_MaxElementAsFirstElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="given3Integers_MaxElementAsSecondElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <testcase name="given3String_MaxElementAsThirdElement_ShouldReturnMax()" classname="GenericsPracticeProblemTest" time="0.001"/>
+  <system-out><![CDATA[Max Element is: Zebra
+Max Element is: 77.0001
+Max Element is: 371.71
+Max Element is: 10001
+Max Element is: Peach
+Max Element is: 66.23
+Max Element is: 6
+Max Element is: 37
+Max Element is: Capgemini
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -18,7 +18,7 @@ public class GenericsPracticeProblemTest {
 
     @Test
     public void given3Integers_MaxElementAsThirdElement_ShouldReturnMax(){
-        GenericsPracticeProblem testVariable = new GenericsPracticeProblem(8,1000,1000);
+        GenericsPracticeProblem testVariable = new GenericsPracticeProblem(8,1000,10001);
         Assert.assertEquals(testVariable.compareThreeWrapperObjects(),10001);
     }
 

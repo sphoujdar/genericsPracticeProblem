@@ -25,15 +25,11 @@ public class GenericsPracticeProblem <T extends Comparable<T>> {
             maxElement = this.second;
         if (this.third.compareTo(maxElement) > 0)
             maxElement = this.third;
+        printMax(maxElement);
         return maxElement;
     }
 
-    public T printMax(){
-        T maxElement = this.first;
-        if (this.second.compareTo(maxElement) > 0)
-            maxElement = this.second;
-        if (this.third.compareTo(maxElement) > 0)
-            maxElement = this.third;
-        return maxElement;
+    public void printMax(T maxElement){
+        System.out.println("Max Element is: "+ maxElement);
     }
 }
