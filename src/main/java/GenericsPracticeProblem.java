@@ -1,19 +1,19 @@
-public class GenericsPracticeProblem {
+public class GenericsPracticeProblem <T extends  Comparable<T>> {
 
-    Integer first,second,third;
-    public GenericsPracticeProblem(Integer first, Integer second, Integer third) {
+    T first,second,third;
+    public GenericsPracticeProblem(T first, T second, T third) {
         this.first = first;
         this.second = second;
         this.third = third;
     }
 
-    public Integer compareThreeIntegers(){
-        if (this.first > this.second && this.first> this.third){
-            return this.first;
-        }else if (this.second > this.first && this.second> this.third){
-            return this.second;
-        }else {
-            return this.third;
-        }
+    public T compareThreeWrapperObjects(){
+
+        T maxElement = this.first;
+        if (this.second.compareTo(maxElement) > 0)
+            maxElement = this.second;
+        if (this.third.compareTo(maxElement) > 0)
+            maxElement = this.third;
+        return maxElement;
     }
 }
