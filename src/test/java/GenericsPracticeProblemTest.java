@@ -2,7 +2,6 @@ import org.junit.jupiter.api.Test;
 import org.testng.Assert;
 
 public class GenericsPracticeProblemTest {
-
     @Test
     public void givenMax_AsFirstElement_ShouldReturnMax(){
         GenericsPracticeProblem testVariable = new GenericsPracticeProblem(6,5,4);
@@ -20,5 +19,4 @@ public class GenericsPracticeProblemTest {
         GenericsPracticeProblem testVariable = new GenericsPracticeProblem(8,1000,10001);
         Assert.assertEquals(testVariable.compareThreeIntegers(),(Integer)10001);
     }
-
 }

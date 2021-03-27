@@ -1,7 +1,6 @@
 public class GenericsPracticeProblem {
 
     Integer first,second,third;
-
     public GenericsPracticeProblem(Integer first, Integer second, Integer third) {
         this.first = first;
         this.second = second;
